@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="row mt-3">
+        <div class="row mt-5">
             <div class="col-lg-4 offset-lg-4">
                 <div class="select">
                 <form action="{{url('/')}}" method="GET">
@@ -50,6 +50,7 @@
                       <h6 class="text-center">Data : {{$list_data["lastUpdate"]}}</h6>
                   </div>
             </div>
+            <h6 class="text-center mt-2">Created by : <a href="">Andikha Dian Nugraha</a></h6>
         </div>
     </div>
     
